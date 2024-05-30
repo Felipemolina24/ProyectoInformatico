@@ -6,7 +6,7 @@ import { BsGrid } from "react-icons/bs";
 import { TbUserPentagon } from "react-icons/tb";
 import { PiChatCenteredDotsLight, PiGearLight } from "react-icons/pi";
 import { useNavigate } from 'react-router-dom';
-import { FaAngleRight } from "react-icons/fa6";
+
 
 export default function MenuLateral() {
     const navigate = useNavigate();

@@ -51,7 +51,7 @@ export default function Login() {
                         <div className="inputs-container">
                             <div className="texts-password">
                                 <p>Contraseña</p>
-                                <a href="#" className="forms-links">
+                                <a href="/" className="forms-links">
                                     Olvidaste tu contraseña?
                                 </a>
 
@@ -75,7 +75,7 @@ export default function Login() {
                             <input type="checkbox" required />
                             <label>
                                 He leído y acepto los{" "}
-                                <a href="#" className="forms-links">
+                                <a href="/" className="forms-links">
                                     términos y condiciones
                                 </a>
                             </label>
