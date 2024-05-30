@@ -30,8 +30,8 @@ export default function Login() {
     });
 
     return (
-        <div className="wrapper">
-            <div className="wrapper-basic wrapper-left">
+        <div className="wrapper-login">
+            <div className="wrapper-login-basic wrapper-login-left">
                 <form onSubmit={onSubmit} className="form">
                     <h3 className="title-login">Nos alegra verte por aqui</h3>
                     <p className="subtext-login">
@@ -51,7 +51,7 @@ export default function Login() {
                         <div className="inputs-container">
                             <div className="texts-password">
                                 <p>Contraseña</p>
-                                <a href="#" className="forms-links">
+                                <a href="/" className="forms-links">
                                     Olvidaste tu contraseña?
                                 </a>
 
@@ -75,7 +75,7 @@ export default function Login() {
                             <input type="checkbox" required />
                             <label>
                                 He leído y acepto los{" "}
-                                <a href="#" className="forms-links">
+                                <a href="/" className="forms-links">
                                     términos y condiciones
                                 </a>
                             </label>
@@ -99,7 +99,7 @@ export default function Login() {
                     </p>
                 </form>
             </div>
-            <div className="wrapper-basic wrapper-right">
+            <div className="wrapper-login-basic wrapper-login-right">
                 <Animated />
             </div>
         </div>

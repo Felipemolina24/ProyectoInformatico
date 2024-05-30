@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+Diagrama C4: https://online.visual-paradigm.com/share.jsp?id=323738313337342d31
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requisitos Funcionales
 
-## Available Scripts
+    Autenticación de Usuarios:
+•	Permitir a los usuarios iniciar sesión usando un nombre de usuario y contraseña.
+•	Validar las credenciales ingresadas contra una base de datos segura donde se almacenan los detalles del usuario.
+    Gestión de Sesiones:
+•	Crear una sesión para el usuario una vez que se autentique exitosamente.
+•	  Asegurar que la sesión sea única y segura para cada usuario.
 
-In the project directory, you can run:
+    Validación de Entrada:
+•	Implementar validaciones en el lado del cliente para verificar que el formato del nombre de usuario. email y la contraseña cumplan con las políticas establecidas (por ejemplo, longitud, email valido, campos obligatorios).
+•	Implementar validaciones en el lado del servidor para una capa adicional de seguridad.
 
-### `npm start`
+    Mensajes de Error Claros:
+•	Proporcionar mensajes de error claros y específicos en caso de que la autenticación falle (por ejemplo, "Nombre de usuario o contraseña incorrectos", "La cuenta no existe").
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Integración con la API:
+•	La autenticación debe realizarse a través de una API que maneje las solicitudes de inicio de sesión y las validaciones de seguridad correspondientes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Requisitos No Funcionales
 
-### `npm test`
+    Seguridad:
+•	Utilizar protocolos seguros para la transmisión de datos (HTTPS).
+•	Almacenar las contraseñas en la base de datos utilizando un hash.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Usabilidad:
+•	Diseñar una interfaz de usuario intuitiva y amigable.
 
-### `npm run build`
+    Rendimiento:
+•	 Optimizar la respuesta de la API para garantizar un inicio de sesión rápido.
+•	Manejar adecuadamente los errores y tiempos de espera de la API para no dejar al usuario en un estado de incertidumbre.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Escalabilidad:
+•	Diseñar la API y la base de datos para soportar un aumento en el número de solicitudes de inicio de sesión conforme crece la base de usuarios.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Mantenibilidad:
+•	 Escribir código limpio y bien documentado tanto para la interfaz de usuario como para la API, facilitando futuras actualizaciones y mantenimiento.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Juan Felipe Gomez
+Rafael Gomez
+Jaime Humberto Ñañez
+william Banguera
+Miguel Sotelo
