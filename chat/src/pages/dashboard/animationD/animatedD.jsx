@@ -1,6 +1,6 @@
 import React from "react";
 import "./animatedD.css";
-import rocket from "../../../Components/Assets/rocket.png";
+
 
 export default function AnimatedD() {
     return (
