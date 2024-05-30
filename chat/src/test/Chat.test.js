@@ -1,8 +1,8 @@
-import { render, fireEvent, screen, waitFor } from '@testing-library/react';
+import { render, screen,  } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Chat from '../pages/chats/Chat';
 import { AuthProvider } from '../context/AuthContext';
-import io from 'socket.io-client';
+import 'setimmediate';
 
 // Mock del socket dentro de un IIFE
 const socketMock = (() => {

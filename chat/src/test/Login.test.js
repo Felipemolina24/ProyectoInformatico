@@ -4,16 +4,12 @@ import '@testing-library/jest-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import Login from '../pages/login/login';
-import { useNavigate } from 'react-router-dom';
-import { loginRequest, getUser } from '../api/auth';
+
 
 
 describe('Pruebas para el componente Login', () => {
     // Función simulada de login
     const mockLogin = jest.fn();
-    const mockNavigate = jest.fn();
-
-  
 
     const wrapper = ({ isAuthenticated = false, error = [] }) => render(
         <Router>
