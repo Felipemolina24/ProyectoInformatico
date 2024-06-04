@@ -1,29 +1,29 @@
-.wrapper {
+.wrapper-login {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
 }
 
-.wrapper-basic {
+.wrapper-login-basic {
     width: 50%;
     height: 100%;
 }
 
-.wrapper-left {
+.wrapper-login-left {
     display: flex;
     justify-content: center;
     align-items: center;
     background: white;
 }
 
-.wrapper-right {
-    background: #37338c;
+.wrapper-login-right {
+    background: #0047b2 !important;
     position: relative;
 }
 
 #login-btn {
-    background-color: #4f46e5;
+    background-color: #0047b2;
     width: 100%;
     height: 65px;
     border: none;
@@ -106,7 +106,7 @@
     font-size: 16px;
 }
 
-.wrapper .register-link {
+.wrapper-login .register-link {
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
@@ -115,7 +115,7 @@
 .forms-links {
     border: none;
     text-decoration: none;
-    color: #4f46e5;
+    color: #0047b2 !important;
 }
 
 .forms-links:hover {
@@ -123,5 +123,5 @@
 }
 
 .forms-links:visited {
-    color: #4f46e5;
+    color: #0047b2;
 }

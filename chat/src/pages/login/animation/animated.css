@@ -185,7 +185,7 @@ body {
     transform: translateX(-50%);
     width: 10px;
     height: 200px;
-    background: linear-gradient( #4f46e5, transparent);
+    background: linear-gradient( #0300b9, transparent) !important;
 }
 
 .rocket::after {
@@ -196,6 +196,6 @@ body {
     transform: translateX(-50%);
     width: 10px;
     height: 200px;
-    background: linear-gradient( #4f46e5, transparent);
+    background: linear-gradient( #0300b9, transparent) !important;
     filter: blur(20px);
 }

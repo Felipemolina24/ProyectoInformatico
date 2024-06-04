@@ -1,0 +1,126 @@
+.chat-prin-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+}
+
+.chats-history-container {
+    width: 30%;
+    border-right: 1px solid rgb(234, 234, 234);
+}
+
+.chats-searcher-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 20%;
+    width: 100%;
+    border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.chats-searcher-subcontainer {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    width: 80%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 234, 234);
+}
+
+.input-search-chats {
+    width: 90%;
+    border: 0px;
+    background-color: transparent;
+    outline: none;
+    padding-left: 10px;
+    height: 28px;
+}
+
+.search-button-chats {
+    width: 10%;
+    height: 30px;
+    border: 0px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.chats-history-subcontainer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 80%;
+    width: 100%;
+}
+
+.user-history-chat-user {
+    background-color: #FAFAFA;
+    width: 85%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user-chat-details {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    width: 90%;
+}
+
+.chat-user-container {
+    width: 70%;
+}
+
+.user-chat-top-info {
+    background-color: white;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+    gap: 10px;
+}
+.user-chat-bottom-container {
+    background-color: #FAFAFA;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-chat-bottom-chats {
+    border-top: 1px solid rgb(234, 234, 234);
+    height: 10%;
+    background-color: white;
+    position: relative;
+}
+
+.input-chat-message-to-send {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.send-messages-button {
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    cursor: pointer;
+    background-color: #136DF6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
